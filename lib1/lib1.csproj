@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="lib2">
+      <HintPath>..\lib2\bin\$(Configuration)\netstandard2.0\lib2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
